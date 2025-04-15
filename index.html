@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="redorange">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="imgs/logo/logo01-r.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css?v=2">
+    <link rel="stylesheet" href="responsive_index.css?v=1">
+    <title>Tanna Travels | Adipur</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <header class="navbar">
+        <a href="#aboutus">
+            <div class="logo">
+                <img loading="lazy" src="imgs/logo/logo01-r.png" alt="Tanna Travels Logo" id="img01">
+                <div class="logo-text">
+                    <span class="txt-1">Tanna</span>
+                    <span class="txt-2">Travels</span>
+                </div>
+            </div>
+        </a>
+
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#home" class="list-item current-page">Home</a></li>
+                <li><a href="#aboutus" class="list-item">About Us</a></li>
+                <li><a href="#services" class="list-item">Services</a></li>
+                <li><a href="#fleets" class="list-item">Our Fleet</a></li>
+                <li><a href="#gallery" class="list-item">Gallery</a></li>
+                <li><a href="#contact" class="list-item">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Navbar Ends Here -->
+
+    <!-- Sections Start's Here -->
+    <div class="sections">
+        <div class="divs div01" id="home">
+            <div class="image">
+                <div class="image-anime-content">
+                    <h3 class="text-h1"><span id="anime-text"></span><span class="blink">|</span></h3>
+                </div>
+                <div class="form">
+                    <form action="" method="post" class="form-content scroll-anime">
+                        <div class="name">
+                            <div>
+                                <label for="fname">First Name *</label>
+                                <input type="text" id="fname" name="fname" spellcheck="false">
+                                <span></span>
+                            </div>
+                            <div>
+                                <label for="lname">Last Name *</label>
+                                <input type="text" id="lname" name="lname" spellcheck="false">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                        <div class="from-to">
+                            <div>
+                                <label for="from">From (Address) *</label>
+                                <input type="text" id="from" name="from" spellcheck="false">
+                                <span></span>
+                            </div>
+                            <div>
+                                <label for="to">To (Destination) *</label>
+                                <input type="text" id="to" name="to" spellcheck="false">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                        <div class="date">
+                            <div>
+                                <label for="day">Travel Date *</label>
+                            </div>
+                            <div>
+                                <input type="text" id="day" name="day" placeholder="Day" spellcheck="false">
+                                <select name="Month" id="month" title="Month">
+                                    <option value="" disabled selected hidden><span>Month</span></option>
+                                    <option value="January">January</option>
+                                    <option value="February">February</option>
+                                    <option value="March">March</option>
+                                    <option value="April">April</option>
+                                    <option value="May">May</option>
+                                    <option value="June">June</option>
+                                    <option value="July">July</option>
+                                    <option value="August">August</option>
+                                    <option value="September">September</option>
+                                    <option value="October">October</option>
+                                    <option value="November">November</option>
+                                    <option value="December">December</option>
+                                </select>
+                                <input type="text" id="Year" name="Year" placeholder="Year" spellcheck="false">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                        <div class="phone-passenger">
+                            <div>
+                                <label for="phone">Phone Number *</label>
+                                <input type="text" id="phone" name="phone" aria-label="Phone Number" spellcheck="false">
+                                <span></span>
+                            </div>
+                            <div>
+                                <label for="passengers">No. of Passengers *</label>
+                                <input type="text" id="passenger" name="passenger" aria-label="passenger" spellcheck="false">
+                                <span></span>
+                            </div>
+                        </div>
+                        <span></span>
+    
+                        <div class="email">
+                            <label for="email">E-mail ID *</label>
+                            <input type="text" id="email" name="email" spellcheck="false">
+                            <span></span>
+                        </div>
+    
+                        <div class="btn">
+                            <button type="submit" class="book-btn" >Book Now</button>
+                        </div>
+    
+                    </form>
+                </div>
+            </div>
+            <div class="after-img-content scroll-anime">
+                <p class="content-home-01">
+                    We are your trusted partner for seamless travel experiences. Whether you're planning a getaway, need
+                    reliable pickup and drop services, or want to explore unique destinations, we've got you covered.
+                </p>
+            </div>
+            <div class="why_us">
+                <div class="rotated-text">
+                    <h1>Why Choose Us</h1>
+                </div>
+
+                <div class="why-us-section">
+
+                    <div class="wus-box wus-box-01 scroll-anime">
+                        <div class="icon-img"><img loading="lazy" src="imgs/icons/assurance.png"></div>
+                        <div class="description">
+                            <h2 class="d-heading">24/7 Assistance</h2>
+                            <p class="d-text">
+                                Experience round-the-clock support with our dedicated team, always ready to assist with inquiries, changes, or unexpected issues, ensuring a stress-free journey.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="wus-box wus-box-02 scroll-anime">
+                        <div class="icon-img"><img loading="lazy" src="imgs/icons/chauffeur.png"></div>
+                        <div class="description">
+                            <h2 class="d-heading">Certified Drivers</h2>
+                            <p class="d-text">
+                                Travel with confidence, knowing you're in the hands of licensed and highly experienced drivers who prioritize your safety and comfort on every trip.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="wus-box wus-box-03 scroll-anime">
+                        <div class="icon-img"><img loading="lazy" src="imgs/icons/choice.png"></div>
+                        <div class="description">
+                            <h2 class="d-heading">Customizable Options</h2>
+                            <p class="d-text">
+                                Enjoy unparalleled flexibility by customizing your itinerary, selecting services that fit your schedule, preferences, and travel goals effortlessly.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="wus-box wus-box-04 scroll-anime">
+                        <div class="icon-img"><img loading="lazy" src="imgs/icons/customer-care.png"></div>
+                        <div class="description">
+                            <h2 class="d-heading">Swift Reservations</h2>
+                            <p class="d-text">
+                                Save time with a quick and intuitive booking process designed to provide instant confirmations, making your travel planning faster and hassle-free.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="wus-box wus-box-05 scroll-anime">
+                        <div class="icon-img"><img loading="lazy" src="imgs/icons/save.png"></div>
+                        <div class="description">
+                            <h2 class="d-heading">Competitive Rates</h2>
+                            <p class="d-text">
+                                Access premium services at transparent and affordable rates, ensuring value for every traveler without compromising quality or comfort.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="wus-box wus-box-06 scroll-anime">
+                        <div class="icon-img"><img loading="lazy" src="imgs/icons/trust.png"></div>
+                        <div class="description">
+                            <h2 class="d-heading">Proven Reliability</h2>
+                            <p class="d-text">
+                                Rely on a trusted system backed by consistent service delivery, positive customer feedback, and a commitment to meeting your expectations every time.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="divs div02" id="aboutus">
+            <div class="rotated-text">
+                <h1>About Us</h1>
+            </div>
+            <div class="aboutus-container">
+                <div class="au-content au-content-01 scroll-anime">
+                    Founded with a passion for exploration and a commitment to exceptional service, Tanna Travels is a one-stop destination for all your travel needs. From booking dream vacations to arranging convenient pickup and drop-off services, we aim to simplify every aspect of your travel experience.
+                </div><br>
+                <div class="au-content au-content-02 scroll-anime">
+                    Welcome to Tanna Travels, your trusted partner in travel planning and unforgettable adventures.
+                </div><br>
+                <div class="au-content au-content-03 scroll-anime">
+                    At Tanna Travels, we believe that traveling is not just about reaching a destination—it’s about creating memories that last a lifetime. Our mission is to make your journey seamless, enjoyable, and perfectly tailored to your needs.
+                </div><br>
+                <div class="au-content au-content-04 scroll-anime">
+                    <h2>Join Us on Your Next Adventure -</h2>
+                    <p>
+                        Whether you’re planning a weekend getaway or a cross-country expedition, Tanna Travels is here to make your travel dreams come true. Explore the world with confidence, knowing that we’ve got your back.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="divs div03" id="services">
+            <div class="rotated-text">
+                <h1>Services</h1>
+            </div>
+            <!-- Slider starts from here -->
+            <div class="swiper mySwiper03 swiper-container scroll-anime">
+                <div class="swiper-wrapper sw-list">
+                    <div class="swiper-slide sw-items">
+                        <div class="sw-item">
+                            <div class="sw-img-content img01">
+                                <h2 class="title">Airport Pickup & Drop</h2>
+                                <p class="title-content">Experience hassle-free travel with our dedicated airport pickup and drop services. Whether you're arriving or departing, we ensure a smooth, timely, and comfortable journey. Book with us and enjoy a stress-free ride to your destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sw-items">
+                        <div class="sw-item">
+                            <div class="sw-img-content img02">
+                                <h2 class="title">Tourist & Sightseeing Services</h2>
+                                <p class="title-content">Discover new places with our sightseeing and tour services. Sit back, relax, and enjoy guided city tours, nature excursions, and long-distance travel with ease.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sw-items">
+                        <div class="sw-item">
+                            <div class="sw-img-content img03">
+                                <h2 class="title">Luxury & Premium Vehicles</h2>
+                                <p class="title-content">Travel in style with our premium fleet of luxury cars, SUVs, and buses. Enjoy a first-class experience with top-notch amenities and professional service.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sw-items">
+                        <div class="sw-item">
+                            <div class="sw-img-content img04">
+                                <h2 class="title">Destination Wedding Travel Arrangements</h2>
+                                <p class="title-content">Planning a destination wedding? We provide complete travel arrangements for you and your guests, including airport transfers, sightseeing, and luxury transport services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sw-items">
+                        <div class="sw-item">
+                            <div class="sw-img-content img05">
+                                <h2 class="title">Comfortable Bus Travel Services</h2>
+                                <p class="title-content">Travel in comfort and style with our reliable bus services. Whether for daily commutes or long-distance trips, we ensure a smooth and enjoyable journey for every passenger.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sw-items">
+                        <div class="sw-item">
+                            <div class="sw-img-content img06">
+                                <h2 class="title">Personalized Trip Planning</h2>
+                                <p class="title-content">Plan your perfect getaway with our customized trip booking services. Whether it’s a solo adventure, family vacation, or a group tour, we ensure a seamless experience tailored to your needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sw-items">
+                        <div class="sw-item">
+                            <div class="sw-img-content img07">
+                                <h2 class="title">Adventure & Nature Tours</h2>
+                                <p class="title-content">Explore breathtaking landscapes and thrilling adventures with our curated nature tours. From mountains to beaches, we provide the best travel experience for nature lovers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider Ends Here -->
+        </div>
+        <div class="divs div04" id="fleets">
+            <div class="rotated-text">
+                <h1>Our Fleets</h1>
+            </div>
+            <!-- Slider starts from here -->
+            <div class="container">
+                <div class="swiper mySwiper02 card-wrapper scroll-anime">
+                    <div class="swiper-wrapper card-list">
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/toyota-glanza.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Glaza</h2>
+                                    <p class="brand">Toyota</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/tata-punch.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Punch</h2>
+                                    <p class="brand">Tata</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/rumion.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Rumion</h2>
+                                    <p class="brand">Toyota</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/mahindra-bolero.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Bolero</h2>
+                                    <p class="brand">Mahindra</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/kia-carnival.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Carnival</h2>
+                                    <p class="brand">KIA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/Innova-HyCross.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Innova HyCross</h2>
+                                    <p class="brand">Toyota</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/innova-crysta.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Innova Crysta</h2>
+                                    <p class="brand">Toyota</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/fortuner.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Fortuner</h2>
+                                    <p class="brand">Toyota</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/ertiga.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Ertiga</h2>
+                                    <p class="brand">Maruti Suzuki</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/dizre.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Dizre</h2>
+                                    <p class="brand">Maruti Suzuki</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/cruiser-hyryder.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Cruiser Hyryder</h2>
+                                    <p class="brand">Toyota</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/brezza.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Brezza</h2>
+                                    <p class="brand">Maruti Suzuki</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/aura.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Aura</h2>
+                                    <p class="brand">Hyundai</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/alcazar.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Alcazar</h2>
+                                    <p class="brand">Hyundai</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/12seater-tempo.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Tempo</h2>
+                                    <p class="brand">12-seater<br>Force</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/17seater-traveller.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Traveller</h2>
+                                    <p class="brand">17-seater <br>Force</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/12seater-unbania.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Tempo Unbania</h2>
+                                    <p class="brand">12-seater<br>Force</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/17seater-traveller.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Traveller Unbania</h2>
+                                    <p class="brand">17-seater<br>Force</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/20seater-traveller.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">Traveller</h2>
+                                    <p class="brand">20-seater <br>Force</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card-items">
+                            <div class="card-item">
+                                <img loading="lazy" src="imgs/cars/51seater-starbus.png" class="card-image">
+                                <div class="img-content">
+                                    <h2 class="model">StarBus</h2>
+                                    <p class="brand">51 seater <br>Tata</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider Ends Here -->
+        </div>
+        <div class="divs div05" id="gallery">
+            <div class="rotated-text">
+                <h1>Gallery</h1>
+            </div>
+            <div class="gallery-section">
+                <div class="all-photos">
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image01.jpeg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image02.jpeg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image03.jpeg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image04.jpeg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image05.jpeg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image06.jpg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image07.avif">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image08.jpg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image09jpg.jpg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image10.jpg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image11.jpg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image12.jpg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image13.webp">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image14.webp">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image15.avif">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image16.webp">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image17.webp">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image18.webp">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/image19.jpg">
+                    </div>
+                    <div class="photo scroll-anime">
+                        <img loading="lazy" src="imgs/travell-photos/home-travel-image10.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divs div06" id="contact">
+            <div class="rotated-text">
+                <h1>Contact</h1>
+            </div>
+            <div class="main-content-08">
+                <div class="contact-section">
+                    <a href="https://www.google.com/maps/place/Tanna+tours+and+travels/@23.0693989,70.0968565,171m/data=!3m1!1e3!4m10!1m2!2m1!1stanna+travels+adipur!3m6!1s0x3950b934cb60db2d:0x313ac390f946075a!8m2!3d23.0695514!4d70.0972468!15sChR0YW5uYSB0cmF2ZWxzIGFkaXB1cpIBDHRheGlfc2VydmljZeABAA!16s%2Fg%2F11sjhmhq8k?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+                        <div class="contact location-div scroll-anime">
+                            <div class="img">
+                                <img loading="lazy" src="imgs/location.png">
+                            </div>
+                            <div class="inner-content location-content">
+                                <h1>Our location</h1>
+                                <p>Plot No. 112, 113, Duplex No. 03, NR Ahir Girls Hostel, Ward 5/A, Adipur (Kutch) 370-205</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="tel:9825421622">
+                        <div class="contact contact-div scroll-anime">
+                            <div class="img">
+                                <img loading="lazy" src="imgs/contact.png">
+                            </div>
+                            <div class="inner-content contact-content">
+                                <h1>Our Phones</h1>
+                                <p>+91 9825421622
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/cdn-cgi/l/email-protection#2d594c43434c595f4c5b48415e1d1a6d4a404c4441034e4240125e584f47484e59107e585d5d425f59081f1d7f485c58485e590b4f424954106548414142081f1d6c4940444301">
+                        <div class="contact mail-div scroll-anime">
+                            <div class="img">
+                                <img loading="lazy" src="imgs/email.png">
+                            </div>
+                            <div class="inner-content mail-content">
+                                <h1>Our E-mails</h1>
+                                <p><span class="__cf_email__" data-email="e094818e8e8194928196858c93a0878d81898cce838f8d">[email&#160;protected]</span>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sections End's Here -->
+
+    <!-- Footer Start's from here -->
+    <div class="footer scroll-anime" id="footer">
+        <div class="footer-container">
+            <div class="logo02 scroll-anime">
+                <a href="#footer">
+                    <img loading="lazy" src="imgs/logo/logo-new01.png">
+                </a>
+            </div>
+            <div class="footer-menu">
+                <div class="medias scroll-anime">
+                    <div class="media google">
+                        <a href="https://g.co/kgs/2xQZPBK" target="_blank">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                    <div class="media instagram">
+                        <a href="https://www.instagram.com/pratham_tanna/?utm_source=ig_web_button_share_sheet" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="media facebook">
+                        <a href="https://www.facebook.com/pratham.tanna.35912" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="menus scroll-anime">
+                    <a href="#home" class="new-list-item list-item-01">
+                        <div class="menu-item">Home</div>
+                    </a>
+                    <a href="#aboutus" class="new-list-item list-item-02">
+                        <div class="menu-item">About Us</div>
+                    </a>
+                    <a href="#services" class="new-list-item list-item-03">
+                        <div class="menu-item">Services</div>
+                    </a>
+                    <a href="#fleets" class="new-list-item list-item-04">
+                        <div class="menu-item">Our Fleet</div>
+                    </a>
+                    <a href="#gallery" class="new-list-item list-item-06">
+                        <div class="menu-item">Gallery</div>
+                    </a>
+                    <a href="#contact" class="new-list-item list-item-07">
+                        <div class="menu-item">Contact</div>
+                    </a>
+                    <a href="signup.php" onclick="showLoadingOverlay()" class="list-item-08">
+                        <div class="menu-item">Signup</div>
+                    </a>
+                    <a href="login.php" onclick="showLoadingOverlay()" class="list-item-09">
+                        <div class="menu-item">Login</div>
+                    </a>
+                </div>
+                <div class="copyright-section">
+                    <div class="copyright">
+                        <div class="text02-01">© 2024, All rights reserved by:</div>
+                        <div class="text02-02">&nbsp; Tanna Travels</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End's from here -->
+
+    <!-- Scroll to top button Start's from here -->
+    <div id="btn01">
+        <button type="button" id="scrollToTopBtn" title="Go to top" onclick="scrollToTop()">
+            <i class="fa-solid fa-arrow-up fa-fade"></i>
+        </button>
+    </div>
+    <!-- Scroll to top button End's here -->
+
+    <!-- Overlay section Starts from here.  -->
+    <div id="loadingOverlay" class="overlay" style="display: none;">
+        <div class="overlay-content">
+            <center>
+                <p>Processing your request, </p>
+                <p>please wait<span>.</span><span>.</span><span>.</span></p>
+            </center>
+        </div>
+    </div>
+    <!-- Overlay section Ends here.  -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="index.js?v=1"></script>
+<script src="validation.js"></script>
